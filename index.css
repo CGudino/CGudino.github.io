@@ -148,6 +148,7 @@ ul li {
 
 .card:hover {
   transform: scale(1.1);
+  opacity: 0.9;
 }
 
 /* Styling for contact section */
