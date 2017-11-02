@@ -1,0 +1,166 @@
+* {
+  font-family: 'Palatino';
+}
+
+/* For phone screens */
+
+@media screen and (max-width: 767px) {
+  .navbar-collapse {
+    background-color: black;
+    margin: 0 -10% 0 -10%;
+  }
+}
+
+body {
+  position: relative;
+  height: 100%;
+  margin: auto;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+#portfolio {
+  height: 100%;
+}
+
+#navigation {
+  font-size: 1.3em;
+  height: 50px;
+  background-color: black;
+  color: white;
+}
+
+.navbar .navbar-collapse ul li a {
+  color: white;
+}
+
+ul li {
+  margin: 0 10%;
+}
+
+/* Styling for home section */
+
+#home {
+  background-image: url('./pictures/codebackgroundblack.jpeg');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+#introduction {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  color: white;
+  padding-top: 20vh;
+}
+
+#intro-paragraph {
+  margin-top: 30vh;
+  font-size: 2em;
+}
+
+/* Styling for skills section */
+
+#skills {
+  background-color: white;
+}
+
+#skills-intro {
+  color: #424444;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding-top: 7%;
+  font-size: 3.5em;
+  font-weight: bold;
+}
+
+#my-skills {
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  margin: 5% 0 7% 0;
+}
+
+.skill-icons {
+  max-width:100%;
+  max-height:100%;
+  transition: transform 300ms;
+  opacity: 0.9;
+}
+
+.skill-icons:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+/* Styling for projects section */
+
+#projects {
+  background-image: url('./pictures/projectsbackground.jpeg');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+}
+
+#project-holder {
+  margin: 0 5%;
+}
+
+#projects-intro {
+  color: white;
+  text-shadow:
+		-2px -2px 0 #000,
+		2px -2px 0 #000,
+		-2px 2px 0 #000,
+		2px 2px 0 #000;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding-top: 7%;
+  font-size: 3.5em;
+  font-weight: bold;
+}
+
+.card {
+  margin: 10%;
+  background-color: lightgray;
+  transition: transform 300ms;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 30vh;
+}
+
+.card-text {
+  text-align: center;
+}
+
+.card-img-top:hover {
+  opacity: 0.8;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+/* Styling for contact section */
+
+#contact {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  height: 100vh;
+}
+
+#contact-placeholder {
+  font-size: 5em;
+  font-weight: bold;
+  padding-top: 20%;
+}

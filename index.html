@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cristian Gudiño</title>
+    <link rel='stylesheet' type='text/css' href='./index.css'>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  </head>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+    <div id='portfolio'>
+      <!-- Navigation bar -->
+      <nav class='navbar navbar-toggleable-sm navbar-inverse fixed-top' id='navigation'>
+        <div class='container'>
+          <!-- Toggle navbar into menu on small screens with this button -->
+          <button class='navbar-toggler' data-toggle='collapse' data-target='#mainNav'>
+            <span class='navbar-toggler-icon'></span>
+          </button>
+          <!--The actual navbar content -->
+          <div class='collapse navbar-collapse' id='mainNav'>
+            <ul id='page-links' class='navbar-nav'>
+              <li><a class='nav-item nav-link' href='#home'>Home</a></li>
+              <li><a class='nav-item nav-link' href='#skills'>Skills</a></li>
+              <li><a class='nav-item nav-link' href='#projects'>Projects</a></li>
+              <li><a class='nav-item nav-link' href='#contact'>Contact</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </nav>
+
+      <!-- Information about me -->
+      <div id='home'>
+        <div id='introduction'>
+          <div id='intro-words'>
+            <h1>Hello,</h1>
+            <h1>I'm Cristian.</h1>
+          </div>
+
+          <div id='intro-paragraph'>
+            <p>I'm a self-taught web developer. Scroll down to see some of my skills and work.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Skill showcase -->
+      <div id='skills'>
+        <h1 id='skills-intro'>My skills</h1>
+        <div class='row'>
+          <div id='my-skills' class='col-md'>
+            <img class='skill-icons' src='./pictures/javascript.png' />
+          </div>
+          <div id='my-skills' class='col-md'>
+            <img class='skill-icons' src='./pictures/html.png' />
+          </div>
+          <div id='my-skills' class='col-md'>
+            <img class='skill-icons' src='./pictures/css.png' />
+          </div>
+          <div id='my-skills' class='col-md'>
+            <img class='skill-icons' src='./pictures/bootstrap.png' />
+          </div>
+          <div id='my-skills' class='col-md'>
+            <img class='skill-icons' src='./pictures/git.png' />
+          </div>
+        </div>
+      </div>
+
+      <!-- Display projects I've created -->
+      <div id='projects'>
+        <h1 id='projects-intro'>Projects</h1>
+        <div id='project-holder' class='row'>
+          <div class='col-md-6'>
+            <div class='card'>
+              <a href='https://cdn.rawgit.com/CGudino/Weather-App/d5cff105/index.html' target='_blank'>
+                <img class='card-img-top' src='./pictures/weather.png' alt='Weather application' />
+              </a>
+              <div class='card-block'>
+                <p class='card-text'>Check your local weather with this fun little app</p>
+              </div>
+            </div>
+          </div>
+          <div class='col-md-6'>
+            <div class='card'>
+              <a href='https://cdn.rawgit.com/CGudino/Wikipedia-Article-Viewer/9b7a3485/index.html' target='_blank'>
+                <img class='card-img-top' src='./pictures/wikiviewer.png' alt='Wikipedia article viewer' />
+              </a>
+              <div class='card-block'>
+                <p class='card-text'>Search for Wikipedia articles in one page</p>
+              </div>
+            </div>
+          </div>
+          <div class='col-md-6'>
+            <div class='card'>
+              <a href='https://cdn.rawgit.com/CGudino/Twitch-Streamer-Viewer/a60748a8/index.html' target='_blank'>
+                <img class='card-img-top' src='./pictures/twitchviewer.png' alt='Twitch streamer viewer' />
+              </a>
+              <div class='card-block'>
+                <p class='card-text'>Search for and see which of your favorite Twitch streamers are online</p>
+              </div>
+            </div>
+          </div>
+          <div class='col-md-6'>
+            <div class='card'>
+              <a href='https://cdn.rawgit.com/CGudino/QuoteMachine/4b00a9e0/index.html' target='_blank'>
+                <img class='card-img-top' src='./pictures/quotemachine.png' alt='Random quote machine' />
+              </a>
+              <div class='card-block'>
+                <p class='card-text'>Get a random quote with this simple app</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- My contact information -->
+      <div id='contact'>
+        <h1 id='contact-placeholder'>Section still under development</h1>
+      </div>
+
+
+    </div>
+    <!-- Script links -->
+    <script src='./index.js'></script>
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  </body>
+</html>
