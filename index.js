@@ -1,19 +1,51 @@
+// Smooth scrolling code
 $("#navigation ul li a[href^='#']").on('click', function(e) {
-
-   // prevent default anchor click behavior
+   // Prevent default anchor click behavior
    e.preventDefault();
-
-   // store hash
+   // Store hash
    var hash = this.hash;
-
-   // animate
+   // Animate
    $('html, body').animate({
        scrollTop: $(hash).offset().top
      }, 300, function(){
-
-       // when done, add hash to url
-       // (default click behaviour)
        window.location.hash = hash;
      });
+});
 
+window.sr = ScrollReveal();
+
+sr.reveal('.navbar', {
+  duration: 2000,
+  origin: 'top'
+});
+
+sr.reveal('#intro-words', {
+  duration: 2000,
+  delay: 1000
+});
+
+sr.reveal('#intro-paragraph', {
+  duration: 2000,
+  delay: 1000
+});
+
+sr.reveal('#skills-intro', {
+  duration: 2000
+});
+
+sr.reveal('#my-skills', {
+  duration: 2000,
+  distance: '300px'
+});
+
+sr.reveal('.left', {
+  duration: 2000,
+  origin: 'right',
+  distance: '300px'
+});
+
+sr.reveal('.right', {
+  duration: 2000,
+  origin: 'left',
+  distance: '300px'
 });
