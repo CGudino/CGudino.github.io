@@ -27,6 +27,8 @@ body {
   height: 100%;
 }
 
+/* Styling for navigation bar */
+
 #navigation {
   font-size: 1.3em;
   height: 50px;
@@ -161,11 +163,45 @@ ul li {
   width: 100%;
   margin: auto;
   text-align: center;
-  height: 100vh;
+  background-color: lightgray;
 }
 
-#contact-placeholder {
-  font-size: 5em;
-  font-weight: bold;
-  padding-top: 20%;
+#contact-me {
+  padding-top: 5%;
+  font-size: 250%;
+}
+
+hr {
+  width: 50%;
+}
+
+#contact-info {
+  font-size: 175%;
+  padding-top: 1%;
+}
+
+#contact-links i {
+  padding: 1% 0 3% 0;
+  transition: transform 300ms;
+}
+
+#contact-links i:hover {
+  transform: scale(1.1);
+  opacity: 0.9;
+}
+
+.fa {
+  margin: 0 1%;
+}
+
+#contact-links a {
+  color: inherit;
+}
+
+footer {
+  font-size: 150%;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  background-color: lightgray;
 }

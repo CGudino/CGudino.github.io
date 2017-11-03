@@ -7,7 +7,7 @@ $("#navigation ul li a[href^='#']").on('click', function(e) {
    // Animate
    $('html, body').animate({
        scrollTop: $(hash).offset().top
-     }, 300, function(){
+     }, 500, function(){
        window.location.hash = hash;
      });
 });
