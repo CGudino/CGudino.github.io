@@ -146,6 +146,7 @@ ul li {
 
 .card-text {
   text-align: center;
+  font-size: 150%;
 }
 
 .card-img-top:hover {
