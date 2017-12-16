@@ -83,7 +83,7 @@ ul li {
   width: 100%;
   margin: auto;
   text-align: center;
-  padding-top: 7%;
+  padding-top: 3%;
   font-size: 3.5em;
   font-weight: bold;
 }
@@ -92,7 +92,7 @@ ul li {
   width: 100%;
   height: 200px;
   text-align: center;
-  margin: 5% 0 7% 0;
+  margin: 2% 0 2% 0;
 }
 
 .skill-icons {
