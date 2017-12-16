@@ -7,9 +7,11 @@
 @media screen and (max-width: 991px) {
   .navbar-collapse {
     background-color: black;
-    width: 50vw;
+    width: 75%;
+    margin: auto;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    text-align: center;
   }
 }
 
@@ -36,6 +38,7 @@ body {
   height: 50px;
   background-color: black;
   color: white;
+  text-align: center;
 }
 
 .navbar .navbar-collapse ul li a {
@@ -88,11 +91,12 @@ ul li {
   font-weight: bold;
 }
 
-#my-skills {
-  width: 100%;
-  height: 200px;
+.my-skills {
+  width: 200px;
+  min-height: 200px;
+  max-height: 200px;
   text-align: center;
-  margin: 2% 0 2% 0;
+  margin: 3% 0 3% 0;
 }
 
 .skill-icons {
@@ -157,13 +161,9 @@ ul li {
   font-size: 150%;
 }
 
-.card-img-top:hover {
-  opacity: 0.8;
-}
-
 .card:hover {
   transform: scale(1.1);
-  opacity: 0.9;
+  opacity: 1;
 }
 
 /* Styling for contact section */

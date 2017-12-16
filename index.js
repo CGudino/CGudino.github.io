@@ -14,11 +14,6 @@ $("#navigation ul li a[href^='#']").on('click', function(e) {
 
 window.sr = ScrollReveal();
 
-sr.reveal('.navbar', {
-  duration: 2000,
-  origin: 'top'
-});
-
 sr.reveal('#intro-words', {
   duration: 2000,
   delay: 1000
@@ -33,7 +28,7 @@ sr.reveal('#skills-intro', {
   duration: 2000
 });
 
-sr.reveal('#my-skills', {
+sr.reveal('.my-skills', {
   duration: 2000,
   distance: '300px'
 });
