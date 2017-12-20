@@ -81,7 +81,7 @@ ul li {
   background-color: white;
 }
 
-#skills-intro {
+.skills-intro {
   color: #424444;
   width: 100%;
   margin: auto;
@@ -92,9 +92,9 @@ ul li {
 }
 
 .my-skills {
-  width: 200px;
-  min-height: 200px;
-  max-height: 200px;
+  width: 150px;
+  min-height: 150px;
+  max-height: 150px;
   text-align: center;
   margin: 3% 0 3% 0;
 }
