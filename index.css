@@ -78,17 +78,24 @@ ul li {
 /* Styling for skills section */
 
 #skills {
+  color: #444444;
   background-color: white;
+  text-align: center;
+  padding: 3% 0;
+}
+
+#skills h1 {
+  font-weight: bold;
 }
 
 .skills-intro {
-  color: #424444;
-  width: 100%;
-  margin: auto;
-  text-align: center;
-  padding-top: 3%;
   font-size: 3.5em;
-  font-weight: bold;
+}
+
+#skill-showcase {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
 }
 
 .my-skills {
@@ -159,7 +166,7 @@ ul li {
 .card-text {
   text-align: center;
   font-size: 150%;
-  height: 50px;
+  min-height: 25px;
 }
 
 .card:hover {

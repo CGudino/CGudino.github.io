@@ -13,9 +13,9 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <meta name="description" content="Portfolio website for web developer Cristian Gudiño">
+    <meta name="description" content="Portfolio website for software engineer Cristian Gudiño">
 
-    <title>Cristian Gudiño</title>
+    <title>Cristian Gudiño - Software Engineer Portfolio</title>
     <link rel='stylesheet' type='text/css' href='./index.css'>
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
 
@@ -25,17 +25,15 @@
     <!-- Font awesome icons -->
     <script src="https://use.fontawesome.com/c08b9d5cf5.js"></script>
   </head>
-  <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
     <div id='portfolio'>
       <!-- Navigation bar -->
       <nav class='navbar navbar-toggleable-md navbar-inverse fixed-top' id='navigation'>
         <div class='container' style='width: 100%'>
-          <!-- Toggle navbar into menu on small screens with this button -->
           <button class='navbar-toggler' data-toggle='collapse' data-target='#mainNav'>
             <span class='navbar-toggler-icon'></span>
           </button>
-          <!--The actual navbar content -->
           <div class='collapse navbar-collapse' id='mainNav'>
             <ul id='page-links' class='navbar-nav'>
               <li><a class='nav-item nav-link' href='#home'>Home</a></li>
@@ -57,7 +55,7 @@
           </div>
 
           <div id='intro-paragraph'>
-            <p>I'm a self-taught web developer and digital marketer. Scroll down to see some of my skills and work.</p>
+            <p>I'm a self-taught software engineer. Scroll down to see some of my skills and work.</p>
           </div>
         </div>
       </div>
@@ -66,30 +64,35 @@
       <div id='skills'>
 
         <!-- Software development skills -->
-        <h1 class='skills-intro'>My software skills</h1>
-        <div class='row'>
-          <div class='my-skills col-md-6 col-lg-4 col-xl'>
+        <h1 class='skills-intro'>Some of my software skills</h1>
+        <div id='skill-showcase'>
+          <div class='my-skills'>
             <img class='skill-icons' src='./pictures/javascript.png' />
           </div>
-          <div class='my-skills col-md-6 col-lg-4 col-xl'>
+          <div class='my-skills'>
             <img class='skill-icons' src='./pictures/html.png' />
           </div>
-          <div class='my-skills col-md-6 col-lg-4 col-xl'>
+          <div class='my-skills'>
             <img class='skill-icons' src='./pictures/css.png' />
           </div>
-          <div class='my-skills col-md-6 col-lg-4 col-xl'>
+          <div class='my-skills'>
             <img class='skill-icons' src='./pictures/react.png' />
           </div>
-          <div class='my-skills col-md-6 col-lg-4 col-xl'>
+          <div class='my-skills'>
             <img class='skill-icons' src='./pictures/jquery.png' />
           </div>
-          <div class='my-skills col-md-6 col-lg-4 col-xl'>
+          <div class='my-skills'>
+            <img class='skill-icons' src='./pictures/sass.png' />
+          </div>
+          <div class='my-skills'>
             <img class='skill-icons' src='./pictures/bootstrap.png' />
           </div>
-          <div class='my-skills col-md-12 col-lg-12 col-xl'>
+          <div class='my-skills'>
             <img class='skill-icons' src='./pictures/git.png' />
           </div>
         </div>
+        <h1>Along with various others and a passion for learning!</h1>
+      </div>
 
       <!-- Display projects I've created -->
       <div id='projects'>
@@ -175,8 +178,6 @@
           </a>
         </div>
       </div>
-
-    </div>
 
     <!-- Footer -->
     <footer>Created by Cristian Gudiño</footer>
